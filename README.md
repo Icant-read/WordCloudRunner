@@ -12,8 +12,8 @@ public class CloudRunner {
   
 	{
 		try {
-    
-			URL myURL = new URL("http://example.com/");
+    			URL myURL = new URL("https://www.ctevans.net/Nvcc/HIS242/Notes/Rasputin.html");
+			//URL myURL = new URL("http://example.com/");
 			URLConnection site = myURL.openConnection();
 			site.connect();
 			Scanner reader = new Scanner( site.getInputStream() );
