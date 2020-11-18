@@ -12,10 +12,13 @@ public class CloudRunner {
   
 	{
 		try {
-			//URL myURL = new URL("http://example.com/");
-    			//URL myURL = new URL("https://www.ctevans.net/Nvcc/HIS242/Notes/Rasputin.html");
+			URL myURL = new URL("http://example.com/");
+			//URL myURL = new URL("https://www.ctevans.net/Nvcc/HIS242/Notes/Rasputin.html");
 			//URL myURL = new URL("http://www.script-o-rama.com/movie_scripts/a1/bee-movie-script-transcript-seinfeld.html");
-			URL myURL = new URL("http://unix.rulez.org/~calver/funny/LifeofBrian.html");
+			//URL myURL = new URL("http://unix.rulez.org/~calver/funny/LifeofBrian.html");
+			//URL myURL = new URL("http://rouxacademy.com/");
+			//URL myURL = new URL("https://myimmortal.fandom.com/wiki/My_Immortal/Chapters_1-11");
+			//URL myURL = new URL("https://www.art-deco.nu/docs/33aa66-communist-manifesto-full-text-copy-and-paste");
 			URLConnection site = myURL.openConnection();
 			site.connect();
 			Scanner reader = new Scanner( site.getInputStream() );
